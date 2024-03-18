@@ -1,0 +1,143 @@
+body {
+  text-align: center;
+  overflow: hidden;
+  background:linear-gradient(to right ,rgb(129, 13, 13), rgb(202, 202, 34));
+}
+body:hover{
+  background: linear-gradient(to left,rgb(203, 23, 53),rgb(90, 5, 93));
+}
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  
+}
+#title{
+  transition: transform 0.3s ease;
+}
+#title:hover{
+  transform: scale(1.2) ;
+  text-decoration: underline;
+  box-shadow: 0 0 5px cyan,0 0 25px cyan, 0 0 50px cyan,0 0 100px cyan,
+  0 0 200px cyan
+}
+
+
+.w {
+  background-image: url("images/tom1.png");
+  transition: transform 0.8s; 
+  transform-style: preserve-3d; 
+}
+.w:hover{
+  box-shadow: 0 0 5px cyan,0 0 25px cyan, 0 0 50px cyan,0 0 100px cyan,
+  0 0 200px cyan
+}
+.a:hover{
+  box-shadow: 0 0 5px cyan,0 0 25px cyan, 0 0 50px cyan,0 0 100px cyan,
+  0 0 200px cyan
+}
+.s:hover{
+  box-shadow: 0 0 5px cyan,0 0 25px cyan, 0 0 50px cyan,0 0 100px cyan,
+  0 0 200px cyan
+}
+.d:hover{
+  box-shadow: 0 0 5px cyan,0 0 25px cyan, 0 0 50px cyan,0 0 100px cyan,
+  0 0 200px cyan
+}
+.j:hover{
+  box-shadow: 0 0 5px cyan,0 0 25px cyan, 0 0 50px cyan,0 0 100px cyan,
+  0 0 200px cyan
+}
+.k:hover{
+  box-shadow: 0 0 5px cyan,0 0 25px cyan, 0 0 50px cyan,0 0 100px cyan,
+  0 0 200px cyan
+}
+.l:hover{
+  box-shadow: 0 0 5px cyan,0 0 25px cyan, 0 0 50px cyan,0 0 100px cyan,
+  0 0 200px cyan
+}
+
+.a {
+  background-image: url("images/tom2.png");
+  transition: transform 0.8s; 
+  transform-style: preserve-3d;
+}
+
+.s {
+  background-image: url("images/tom3.png");
+  transition: transform 0.8s; 
+  transform-style: preserve-3d;
+}
+
+.d {
+  background-image: url("images/tom4.png");
+  transition: transform 0.8s; 
+  transform-style: preserve-3d;
+}
+
+.j {
+  background-image: url("images/snare.png");
+  transition: transform 0.8s; 
+  transform-style: preserve-3d;
+}
+
+.k {
+  background-image: url("images/crash.png");
+  transition: transform 0.8s; 
+  transform-style: preserve-3d;
+}
+
+.l {
+  background-image: url("images/kick.png");
+  transition: transform 0.8s; 
+  transform-style: preserve-3d;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+.drum:hover{
+  transform: rotateY(360deg);
+  border-top-left-radius: 50%;
+  border-bottom-right-radius:50% ;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+.footer h4{
+  transition: transform 0.3s ease ;
+}
+.footer h4:hover{
+  transform: scale(1.2);
+  text-shadow:5px 0 rgb(2, 2, 2) ;
+}
